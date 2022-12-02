@@ -34,10 +34,10 @@ IIS_IUSRS [1]
 Device Owners [0]
 Remote Management Users [0]
 
-###3. When did the user aubie last log in to the system?
+### 3. When did the user aubie last log in to the system?
 2020-10-23 00:01:01Z
 
-###4. What applications are automatically started when the user logs into the system and when was the last time the autostart was run?
+### 4. What applications are automatically started when the user logs into the system and when was the last time the autostart was run?
 For all users:
 ```sh
 rip.pl -r "/home/sansforensics/P3/Win10 Registry Artifacts/software" -p run > Q_4.1.txt
@@ -52,13 +52,13 @@ rip.pl -r "/home/sansforensics/P3/Win10 Registry Artifacts/Users/aubie/NTUSER.DA
 ```
 OneDrive - "C:\Users\aubie\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
 
-###5. What was the private IP address associated with the system?
+### 5. What was the private IP address associated with the system?
 ```sh
 rip.pl -r "/home/sansforensics/P3/Win10 Registry Artifacts/system" -p ips > Q_5.txt
 ```
 192.168.48.141 
 
-###6.What are the most recently executed commands from the Windows Run command window?
+### 6.What are the most recently executed commands from the Windows Run command window?
 
 
 
