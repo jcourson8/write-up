@@ -1,0 +1,5 @@
+ips v.20200518
+(System) Get IP Addresses and domains (DHCP,static)
+
+IPAddress            Domain                        
+192.168.48.141       localdomain                    Hint:                         
