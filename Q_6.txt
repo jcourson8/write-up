@@ -1,0 +1,10 @@
+runmru v.20200525
+(NTUSER.DAT) Gets contents of user's RunMRU key
+
+RunMru
+Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
+LastWrite Time 2020-10-21 13:38:13Z
+MRUList = cba
+a   cmd\1
+b   "C:\Program Files\Windows Mail\wab.exe"\1
+c   "C:\Program Files\internet explorer\iexplore.exe"\1
