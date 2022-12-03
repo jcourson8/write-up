@@ -59,6 +59,10 @@ rip.pl -r "/home/sansforensics/P3/Win10 Registry Artifacts/system" -p ips > Q_5.
 192.168.48.141 
 
 ### 6.What are the most recently executed commands from the Windows Run command window?
+```sh
+rip.pl -r "/home/sansforensics/P3/Win10 Registry Artifacts/Users/aubie/NTUSER.DAT" -p runmru > Q_6.txt
+```
+The most recent commands were: cmd, "C:\Program Files\Windows Mail\wab.exe", and "C:\Program Files\internet explorer\iexplore.exe". With the iexplorer.exe being the most recent.
 
 
 
